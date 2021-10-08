@@ -22,7 +22,7 @@
 ## Kickstart vanilla project with subcommand startproject
 `django-admin startproject firstapp`
  
-## Change directory to firstapp and edit file setting.py with IP application will run on
+## Change directory to firstapp and edit file settings.py with IP application will run on
 `ALLOWED_HOSTS = ['127.0.0.1']`
 
 ## Migrate the changes [ Need to be run only when you start project ]
@@ -43,7 +43,7 @@ Starting development server at http://127.0.0.1:8080/
 Quit the server with CONTROL-C.`
 
 ## Verify your application is launched by running following in browser
-[title](127.0.0.1/8080)
+[127.0.0.1/8080](127.0.0.1/8080)
 
 ## Expected log when application is accessed via browser
 `[08/Oct/2021 10:56:32] "GET / HTTP/1.1" 200 10697`
