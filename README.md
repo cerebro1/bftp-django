@@ -32,7 +32,8 @@
 `python3 manage.py runserver 127.0.0.1:8080`
 
 ## Expected Output
-`$ python3 manage.py runserver 127.0.0.1:8080
+```
+$ python3 manage.py runserver 127.0.0.1:8080
 Watching for file changes with StatReloader
 Performing system checks...
 
@@ -41,6 +42,7 @@ October 08, 2021 - 10:54:34
 Django version 3.2.8, using settings 'firstapp.settings'
 Starting development server at http://127.0.0.1:8080/
 Quit the server with CONTROL-C.`
+```
 
 ## Verify your application is launched by running following in browser
 [127.0.0.1/8080](127.0.0.1/8080)
